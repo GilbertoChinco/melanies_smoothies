@@ -48,4 +48,6 @@ if ingredients_list:
 
 
 
-st.text(smoothiefroot_response.json())
+#st.text(smoothiefroot_response.json())
+
+sf_df = st.dataframe(data=smoothiefroot_response.json(), use_container_width=True)
